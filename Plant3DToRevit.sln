@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plyry.Plant3D.Core", "src\Plyry.Plant3D.Core\Plyry.Plant3D.Core.csproj", "{B57246B2-8D34-4B21-9A8A-14EB1CD3D191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plyry.Plant3D.Revit.Addin", "src\Plyry.Plant3D.Revit.Addin\Plyry.Plant3D.Revit.Addin.csproj", "{D299BD98-C060-4EF8-B8AC-61B9144C6B36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B57246B2-8D34-4B21-9A8A-14EB1CD3D191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57246B2-8D34-4B21-9A8A-14EB1CD3D191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57246B2-8D34-4B21-9A8A-14EB1CD3D191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57246B2-8D34-4B21-9A8A-14EB1CD3D191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D299BD98-C060-4EF8-B8AC-61B9144C6B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D299BD98-C060-4EF8-B8AC-61B9144C6B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D299BD98-C060-4EF8-B8AC-61B9144C6B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D299BD98-C060-4EF8-B8AC-61B9144C6B36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <RevitYear Condition="'$(RevitYear)' == ''">2025</RevitYear>
+    <RevitInstallDir Condition="'$(RevitInstallDir)' == ''">$(ProgramFiles)\Autodesk\Revit $(RevitYear)</RevitInstallDir>
+    <RevitApiPath Condition="'$(RevitApiPath)' == ''">$(RevitInstallDir)\RevitAPI.dll</RevitApiPath>
+    <RevitApiUiPath Condition="'$(RevitApiUiPath)' == ''">$(RevitInstallDir)\RevitAPIUI.dll</RevitApiUiPath>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
